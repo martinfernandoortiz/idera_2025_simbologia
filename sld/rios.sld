@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://www.opengis.net/se" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" version="1.1.0" xmlns:ogc="http://www.opengis.net/ogc">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <se:Name>rios — ignlineas_de_aguas_continentales_perenne</se:Name>
+    <se:Name>rios</se:Name>
     <UserStyle>
-      <se:Name>rios — ignlineas_de_aguas_continentales_perenne</se:Name>
+      <se:Name>rios</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name></se:Name>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>permanente</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:Literal>permanente</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
@@ -28,8 +28,8 @@
           <se:Name></se:Name>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>permanente</ogc:PropertyName>
-              <ogc:Literal>1</ogc:Literal>
+              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:Literal>permanente</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>25000</se:MinScaleDenominator>
@@ -47,8 +47,8 @@
           <se:Name></se:Name>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>permanente</ogc:PropertyName>
-              <ogc:Literal>0</ogc:Literal>
+              <ogc:PropertyName>tipo</ogc:PropertyName>
+              <ogc:Literal>intermitente</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
