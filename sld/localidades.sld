@@ -24,12 +24,12 @@
                     </ogc:Or>
                     <ogc:PropertyIsEqualTo>
                       <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                      <ogc:Literal>34</ogc:Literal>
+                      <ogc:Literal>0034</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                   </ogc:Or>
                   <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                    <ogc:Literal>238</ogc:Literal>
+                    <ogc:Literal>0238</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
                 <ogc:PropertyIsEqualTo>
@@ -73,12 +73,12 @@
                   </ogc:Or>
                   <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                    <ogc:Literal>34</ogc:Literal>
+                    <ogc:Literal>0034</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                  <ogc:Literal>238</ogc:Literal>
+                  <ogc:Literal>0238</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -122,12 +122,12 @@
                   </ogc:Or>
                   <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                    <ogc:Literal>34</ogc:Literal>
+                    <ogc:Literal>0034</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
                 <ogc:PropertyIsEqualTo>
                   <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                  <ogc:Literal>238</ogc:Literal>
+                  <ogc:Literal>0238</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
@@ -199,12 +199,12 @@
                     </ogc:Or>
                     <ogc:PropertyIsEqualTo>
                       <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                      <ogc:Literal>34</ogc:Literal>
+                      <ogc:Literal>0034</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                   </ogc:Or>
                   <ogc:PropertyIsEqualTo>
                     <ogc:PropertyName>cod_aglo</ogc:PropertyName>
-                    <ogc:Literal>238</ogc:Literal>
+                    <ogc:Literal>0238</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
                 </ogc:Or>
                 <ogc:PropertyIsEqualTo>
