@@ -7,14 +7,13 @@ El siguiente repositorio contiene los estilos SLD a utilizarse en el taller de e
 
 ### Requerimientos necesarios:
 * Conocimientos de SIG y PC con QGIS 3.4 y GeoServer (versión estable) instalado.
-* [Material para la Instalación de Geoserver:](https://drive.google.com/file/d/1QW9CTQxk8G6dQ9Prgpin1WJLFERUnjrj/view?usp=sharing)
-
 
 ### Instalación de geoserver
-* [Instalación en Windows](https://www.youtube.com/watch?v=FFDnaOKPniM)
-* [¿Cómo crear una imagen de OSGeoLive en un USB?](https://youtu.be/XPHvz84tao4)
-* [Instalación / Configuración OSGeoLive en máquina virtual](https://www.youtube.com/watch?v=1LFuuLXX0Jk)
-* [Inicio de OSGeoLive y Geoserver](https://youtu.be/WKR0BBTQrf8)
+* [Material para la Instalación de Geoserver:](https://drive.google.com/file/d/1QW9CTQxk8G6dQ9Prgpin1WJLFERUnjrj/view?usp=sharing)
+* [Video Instalación en Windows](https://www.youtube.com/watch?v=FFDnaOKPniM)
+* [Video ¿Cómo crear una imagen de OSGeoLive en un USB?](https://youtu.be/XPHvz84tao4)
+* [Video Instalación / Configuración OSGeoLive en máquina virtual](https://www.youtube.com/watch?v=1LFuuLXX0Jk)
+* [Video Inicio de OSGeoLive y Geoserver](https://youtu.be/WKR0BBTQrf8)
 
 
 
