@@ -16,7 +16,8 @@ El siguiente repositorio contiene los estilos SLD a utilizarse en el taller de e
 * [Video Inicio de OSGeoLive y Geoserver](https://youtu.be/WKR0BBTQrf8)
 
 
-
+### Descarga de capas
+* [Acceso a la información]()
 
 
 
