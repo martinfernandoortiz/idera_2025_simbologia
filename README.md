@@ -17,7 +17,7 @@ El siguiente repositorio contiene los estilos SLD a utilizarse en el taller de e
 
 
 ### Descarga de capas
-* [Acceso a la información]()
+* [Acceso a la información](https://drive.google.com/drive/folders/1guLfYRQ5gGLAaBqdcYtZwlZxIa7J3IE5?usp=sharing)
 
 
 
