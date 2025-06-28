@@ -18,8 +18,8 @@
                     </se:Fill>
                     <se:Stroke>
                       <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                      <se:SvgParameter name="stroke-opacity">0.36</se:SvgParameter>
-                      <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                      <se:SvgParameter name="stroke-opacity">0.05</se:SvgParameter>
+                      <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                     </se:Stroke>
                   </se:Mark>
                   <se:Size>2</se:Size>
