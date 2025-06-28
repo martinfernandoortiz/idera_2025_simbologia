@@ -18,7 +18,7 @@ El siguiente repositorio contiene los estilos SLD a utilizarse en el taller de e
 
 ### Descarga de capas
 * [Acceso a la información vectorial](https://drive.google.com/drive/folders/1guLfYRQ5gGLAaBqdcYtZwlZxIa7J3IE5?usp=sharing)
-*### Descarga de raster
+### Descarga de raster
 * [Acceso a la información raster](https://drive.google.com/drive/folders/1K-SrdiZXiRw3hbqLdlHQp6ZovjExeq-y?usp=drive_link)
 
 
