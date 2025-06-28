@@ -1,40 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NamedLayer>
-    <se:Name>postes_km_idera2025.shp</se:Name>
-    <UserStyle>
-      <se:Name>postes_km_idera2025.shp</se:Name>
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name>Single symbol</se:Name>
-          <se:PointSymbolizer>
-            <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="C:/PROGRA~1/QGIS33~1.8/apps/qgis-ltr/./svg/backgrounds/background_security.svg?fill=%23dedede&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="backgrounds/background_security.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
-              <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#dedede</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>14</se:Size>
-            </se:Graphic>
-          </se:PointSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
-    </UserStyle>
-  </NamedLayer>
+<StyledLayerDescriptor version="1.0.0" 
+    xmlns="http://www.opengis.net/sld" 
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    
+    <NamedLayer>
+        <Name>mojones_kilometricos</Name>
+        <UserStyle>
+            <Title>Mojones kilometricos</Title>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>mojon_kilometrico</Name>
+                    <Title>Mojon kilometrico</Title>
+                    <ogc:Filter>
+                        <ogc:PropertyIsLessThan>
+                            <ogc:Function name="env">
+                                <ogc:Literal>wms_scale_denominator</ogc:Literal>
+                            </ogc:Function>
+                            <ogc:Literal>17000</ogc:Literal>
+                        </ogc:PropertyIsLessThan>
+                    </ogc:Filter>
+                    
+                    <!-- Rectangulo principal -->
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>square</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#000000</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>24</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                    
+                    
+                    <PointSymbolizer>
+                        <Graphic>
+                            <Mark>
+                                <WellKnownName>square</WellKnownName>
+                                <Fill>
+                                    <CssParameter name="fill">#ffffff</CssParameter>
+                                </Fill>
+                                <Stroke>
+                                    <CssParameter name="stroke">#000000</CssParameter>
+                                    <CssParameter name="stroke-width">1</CssParameter>
+                                </Stroke>
+                            </Mark>
+                            <Size>24</Size>
+                            <Displacement>
+                                <DisplacementX>0</DisplacementX>
+                                <DisplacementY>10</DisplacementY>
+                            </Displacement>
+                        </Graphic>
+                    </PointSymbolizer>
+                    
+                 
+                    <TextSymbolizer>
+                        <Label>
+                            <ogc:Literal>KM</ogc:Literal>
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Arial</CssParameter>
+                            <CssParameter name="font-size">8</CssParameter>
+                            <CssParameter name="font-weight">bold</CssParameter>
+                            <CssParameter name="font-color">#000000</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>0.5</AnchorPointX>
+                                    <AnchorPointY>0.5</AnchorPointY>
+                                </AnchorPoint>
+                                <Displacement>
+                                    <DisplacementX>0</DisplacementX>
+                                    <DisplacementY>8</DisplacementY>
+                                </Displacement>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#ffffff</CssParameter>
+                        </Fill>
+                    </TextSymbolizer>
+                    
+                   
+                    <TextSymbolizer>
+                        <Label>
+                            <ogc:PropertyName>desc</ogc:PropertyName>
+                        </Label>
+                        <Font>
+                            <CssParameter name="font-family">Arial</CssParameter>
+                            <CssParameter name="font-size">10</CssParameter>
+                            <CssParameter name="font-weight">bold</CssParameter>
+                        </Font>
+                        <LabelPlacement>
+                            <PointPlacement>
+                                <AnchorPoint>
+                                    <AnchorPointX>0.5</AnchorPointX>
+                                    <AnchorPointY>0.5</AnchorPointY>
+                                </AnchorPoint>
+                                <Displacement>
+                                    <DisplacementX>0</DisplacementX>
+                                    <DisplacementY>-6</DisplacementY>
+                                </Displacement>
+                            </PointPlacement>
+                        </LabelPlacement>
+                        <Fill>
+                            <CssParameter name="fill">#000000</CssParameter>
+                        </Fill>
+                    </TextSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
 </StyledLayerDescriptor>
