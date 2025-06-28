@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<StyledLayerDescriptor version="1.1.0"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+  xmlns="http://www.opengis.net/sld" 
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:se="http://www.opengis.net/se">
+
   <NamedLayer>
-    <se:Name>salud_idera2025.shp</se:Name>
+    <se:Name>salud_svg</se:Name>
     <UserStyle>
-      <se:Name>salud_idera2025.shp</se:Name>
+      <se:Name>salud_style</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name></se:Name>
+          <se:Name>Punto de salud</se:Name>
+          <se:Description>
+            <se:Title>Punto de salud con círculo blanco y cruz roja</se:Title>
+          </se:Description>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>13704</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
+           
+          <!-- Círculo base blanco con borde -->
           <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
@@ -21,33 +33,29 @@
                   <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>20</se:Size>
+              <se:Size>22</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>
+          
+          <!-- Cruz roja centrada -->
           <se:PointSymbolizer>
             <se:Graphic>
-              <!--Parametric SVG-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="C:/Users/mfortiz/Downloads/CAPAS_FINALES-20250617T175338Z-1-001/CAPAS_FINALES/salud.svg?fill=%237d8b8f&amp;fill-opacity=1&amp;outline=%23232323&amp;outline-opacity=1&amp;outline-width=0" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Plain SVG fallback, no parameters-->
-              <se:ExternalGraphic>
-                <se:OnlineResource xlink:href="C:/Users/mfortiz/Downloads/CAPAS_FINALES-20250617T175338Z-1-001/CAPAS_FINALES/salud.svg" xlink:type="simple"/>
-                <se:Format>image/svg+xml</se:Format>
-              </se:ExternalGraphic>
-              <!--Well known marker fallback-->
               <se:Mark>
-                <se:WellKnownName>square</se:WellKnownName>
+                <se:WellKnownName>cross</se:WellKnownName>
                 <se:Fill>
-                  <se:SvgParameter name="fill">#7d8b8f</se:SvgParameter>
+                  <se:SvgParameter name="fill">#ff0000</se:SvgParameter>
                 </se:Fill>
                 <se:Stroke>
-                  <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
+                  <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
+                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
                 </se:Stroke>
               </se:Mark>
-              <se:Size>24</se:Size>
+              <se:Size>14</se:Size>
+              <!-- Opcional: Ajuste fino de posición si es necesario -->
+              <!-- <se:Displacement>
+                <se:DisplacementX>0</se:DisplacementX>
+                <se:DisplacementY>0</se:DisplacementY>
+              </se:Displacement> -->
             </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
