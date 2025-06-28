@@ -8,12 +8,12 @@
   <NamedLayer>
     <se:Name>osm_vial</se:Name>
     <UserStyle>
-      <se:Name>osm_vial_</se:Name>
+      <se:Name>osm_vial_simplified</se:Name>
       <se:FeatureTypeStyle>
         <!-- tertiary_link -->
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
@@ -31,7 +31,7 @@
         <!-- secondary_link -->
         <se:Rule>
           <se:Name>secondary_link</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
@@ -49,7 +49,7 @@
         <!-- tertiary -->
         <se:Rule>
           <se:Name>tertiary</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
@@ -67,7 +67,7 @@
         <!-- secondary -->
         <se:Rule>
           <se:Name>secondary</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
@@ -85,7 +85,7 @@
         <!-- living_street -->
         <se:Rule>
           <se:Name>living_street</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
@@ -103,7 +103,7 @@
         <!-- residential -->
         <se:Rule>
           <se:Name>residential</se:Name>
-          <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
