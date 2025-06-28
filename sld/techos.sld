@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NamedLayer>
-    <se:Name>techos — 961_buildings</se:Name>
-    <UserStyle>
-      <se:Name>techos — 961_buildings</se:Name>
-      <se:FeatureTypeStyle>
-        <se:Rule>
-          <se:Name></se:Name>
-          <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>27856</se:MaxScaleDenominator>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#3b3b3b</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.22</se:SvgParameter>
-            </se:Fill>
-            <se:Stroke>
-              <se:SvgParameter name="stroke">#232323</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">0.5</se:SvgParameter>
-              <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-            </se:Stroke>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-      </se:FeatureTypeStyle>
-    </UserStyle>
-  </NamedLayer>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
+    xmlns:ogc="http://www.opengis.net/ogc" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    version="1.0.0" 
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    
+    <NamedLayer>
+        <Name>techos</Name>
+        <UserStyle>
+            <Title>Techos</Title>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>techos</Name>
+                    <Title>Techos</Title>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>100000</MaxScaleDenominator>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">#c9c9c9</CssParameter>
+                            <CssParameter name="fill-opacity">0.2</CssParameter>
+                        </Fill>
+                        <Stroke>
+                            <CssParameter name="stroke">#232323</CssParameter>
+                            <CssParameter name="stroke-width">0.18</CssParameter>
+                            <CssParameter name="stroke-opacity">0.2</CssParameter>
+                            <CssParameter name="stroke-linejoin">round</CssParameter>
+                        </Stroke>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
 </StyledLayerDescriptor>
