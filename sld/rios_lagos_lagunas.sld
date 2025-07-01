@@ -87,5 +87,3 @@
   </NamedLayer>
 </StyledLayerDescriptor>
 
-  </NamedLayer>
-</StyledLayerDescriptor>
