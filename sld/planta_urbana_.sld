@@ -11,13 +11,13 @@
           <se:MaxScaleDenominator>109808</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
             <se:Fill>
-              <se:SvgParameter name="fill">#eeeeee</se:SvgParameter>
-              <se:SvgParameter name="fill-opacity">0.6</se:SvgParameter>
+              <se:SvgParameter name="fill">#e7c4f1</se:SvgParameter>
+              <se:SvgParameter name="fill-opacity">0.4</se:SvgParameter>
             </se:Fill>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#717171</se:SvgParameter>
-              <se:SvgParameter name="stroke-opacity">0</se:SvgParameter>
-              <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+              <se:SvgParameter name="stroke">#d68cea</se:SvgParameter>
+              <se:SvgParameter name="stroke-opacity">0.5</se:SvgParameter>
+              <se:SvgParameter name="stroke-width">1.6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
           </se:PolygonSymbolizer>
