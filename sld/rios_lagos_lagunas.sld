@@ -27,8 +27,10 @@
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <se:MinScaleDenominator>1</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>230952</se:MaxScaleDenominator>
+
+          <se:MinScaleDenominator>3000</se:MinScaleDenominator>
+          <se:MaxScaleDenominator>300000</se:MaxScaleDenominator>
+
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>fna</ogc:PropertyName>
@@ -49,8 +51,15 @@
               <se:SvgParameter name="fill">#323232</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+            <se:VendorOption name="spaceAround">10</se:VendorOption>
+            <se:VendorOption name="charSpacing">3</se:VendorOption>
+            <se:VendorOption name="wordSpacing">5</se:VendorOption>
+            <se:VendorOption name="forceInside">true</se:VendorOption>
+            <se:VendorOption name="autoWrap">70</se:VendorOption>
+            <se:VendorOption name="group">yes</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
+
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsNotEqualTo>
@@ -80,6 +89,13 @@
               <se:SvgParameter name="fill">#323232</se:SvgParameter>
             </se:Fill>
             <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+            <se:VendorOption name="maxDisplacement">1</se:VendorOption>
+            <se:VendorOption name="spaceAround">10</se:VendorOption>
+            <se:VendorOption name="charSpacing">3</se:VendorOption>
+            <se:VendorOption name="wordSpacing">5</se:VendorOption>
+            <se:VendorOption name="forceInside">true</se:VendorOption>
+            <se:VendorOption name="autoWrap">70</se:VendorOption>
+            <se:VendorOption name="group">yes</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
       </se:FeatureTypeStyle>
