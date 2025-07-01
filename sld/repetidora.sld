@@ -17,8 +17,10 @@
                     <se:Description>
                         <se:Title>Repetidora</se:Title>
                     </se:Description>
-                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
-                            <se:PointSymbolizer>
+
+                    <se:MaxScaleDenominator>500000</se:MaxScaleDenominator>
+                     
+        <se:PointSymbolizer>
             <se:Graphic>
               <se:Mark>
                 <se:WellKnownName>circle</se:WellKnownName>
@@ -33,12 +35,14 @@
               <se:Size>20</se:Size>
             </se:Graphic>
           </se:PointSymbolizer>  
+
                   <se:PointSymbolizer>
                         <se:Graphic>
-                            <ExternalGraphic xmlns="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink">
-                              <OnlineResource xlink:type="simple" xlink:href="torre_comunicacion.svg" />
-                              <Format>image/svg+xml</Format>
-                          </ExternalGraphic>
+                        <!-- Al agregar SVG  recordar el namespace se: -->
+                            <se:ExternalGraphic>
+                                  <se:OnlineResource xlink:type="simple" xlink:href="torre_comunicacion.svg"/>
+                                  <se:Format>image/svg+xml</se:Format>
+                            </se:ExternalGraphic>
 
                             <se:Size>18</se:Size>
                             <se:Displacement>
@@ -47,6 +51,7 @@
                             </se:Displacement> 
                         </se:Graphic>
                     </se:PointSymbolizer>
+
                 </se:Rule>
             </se:FeatureTypeStyle>
         </UserStyle>
