@@ -13,13 +13,13 @@
         <!-- tertiary_link -->
         <se:Rule>
           <se:Name>tertiary_link</se:Name>
-          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>tertiary_link</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>100000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f3c3f4</se:SvgParameter>
@@ -31,13 +31,13 @@
         <!-- secondary_link -->
         <se:Rule>
           <se:Name>secondary_link</se:Name>
-          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>secondary_link</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#dbdbbb</se:SvgParameter>
@@ -49,13 +49,13 @@
         <!-- tertiary -->
         <se:Rule>
           <se:Name>tertiary</se:Name>
-          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>tertiary</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#f3c3f4</se:SvgParameter>
@@ -67,13 +67,13 @@
         <!-- secondary -->
         <se:Rule>
           <se:Name>secondary</se:Name>
-          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>secondary</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#dbdbbb</se:SvgParameter>
@@ -85,13 +85,13 @@
         <!-- living_street -->
         <se:Rule>
           <se:Name>living_street</se:Name>
-          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>living_street</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#c5c5c5</se:SvgParameter>
@@ -103,13 +103,13 @@
         <!-- residential -->
         <se:Rule>
           <se:Name>residential</se:Name>
-          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>highway</ogc:PropertyName>
               <ogc:Literal>residential</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
+          <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#c5c5c5</se:SvgParameter>
