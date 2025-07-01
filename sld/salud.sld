@@ -8,7 +8,7 @@
   xmlns:se="http://www.opengis.net/se">
 
   <NamedLayer>
-    <se:Name>salud_svg</se:Name>
+    <se:Name>salud</se:Name>
     <UserStyle>
       <se:Name>salud_style</se:Name>
       <se:FeatureTypeStyle>    
