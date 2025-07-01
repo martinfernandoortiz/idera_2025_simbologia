@@ -14,7 +14,7 @@
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
               <CssParameter name="stroke-width">0.2142</CssParameter>
-              <CssParameter name="stroke-opacity">0.25</CssParameter>
+              <CssParameter name="stroke-opacity">0.6</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-dasharray">2 3</CssParameter> 
