@@ -53,6 +53,33 @@
                     </se:PointSymbolizer>
 
                 </se:Rule>
+
+                <!-- regla para escala lejana -->
+                <se:Rule>
+                    <se:Name>Repetidora General</se:Name>
+                    <se:Description>
+                        <se:Title>Repetidora generalizada</se:Title>
+                    </se:Description>
+                  <se:MinScaleDenominator>520000</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+
+                    <se:PointSymbolizer>
+                        <se:Graphic>
+                            <se:Mark>
+                                <se:WellKnownName>square</se:WellKnownName>
+                                <se:Fill>
+                                    <se:SvgParameter name="fill">#ffd501</se:SvgParameter>
+                                </se:Fill>
+                                <se:Stroke>
+                                    <se:SvgParameter name="stroke">#232323</se:SvgParameter>
+                                    <se:SvgParameter name="stroke-width">0.4</se:SvgParameter>
+                                </se:Stroke>
+                            </se:Mark>
+                            <se:Size>10</se:Size>
+                        </se:Graphic>
+                    </se:PointSymbolizer>
+                </se:Rule>             
+
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
